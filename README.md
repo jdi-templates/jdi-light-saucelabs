@@ -56,7 +56,7 @@ Here some optional capabilities:
 
 More optional capabilities can be found [here](https://github.com/saucelabs-training/demo-java/blob/master/on-boarding-modules/testng/src/test/java/Module4TestNGTest.java)
 
-#### JDI options
+####JDI options
 
 In order to run test with Sauce Lab you need set up remote settings in test.properties file.
 
