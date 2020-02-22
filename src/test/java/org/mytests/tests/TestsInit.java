@@ -5,6 +5,7 @@ import com.epam.jdi.light.ui.html.elements.complex.DataListOptions;
 import com.epam.jdi.tools.Safe;
 import com.epam.jdi.tools.Timer;
 import org.mytests.uiobjects.example.site.SiteJdi;
+import org.mytests.uiobjects.example.site.pages.UsersPage;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 

@@ -14,7 +14,7 @@ import org.mytests.uiobjects.example.entities.MarvelUserInfo;
 @Url("/user-table.html") @Title("User Table")
 public class UsersPage extends WebPage {
 	@UI("#user-table") public static Table usersTable;
-	@UI("#user-table") @WaitTimeout(2)
+	@UI("#user-table") //@WaitTimeout(2)
 	public static DataTable<MarvelUser, MarvelUserInfo> users;
 	@UI("#user-table") public static DataTable<MarvelUser, ?> usersRow;
 	@JTable(root = "#user-table", rowHeader = "User")
