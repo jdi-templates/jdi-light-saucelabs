@@ -60,9 +60,11 @@ More optional capabilities can be found [here](https://github.com/saucelabs-trai
 
 In order to run test with Sauce Lab you need set up remote settings in test.properties file.
 
-> run.type=remote
+> remote.type=sauce
 > 
->driver.remote.url=http://ondemand.eu-central-1.saucelabs.com/wd/hub
+> driver.remote.url=https://<SAUCE_USERNAME>:<SAUCE_ACCESS_KEY>@ondemand.us-west-1.saucelabs.com:443/wd/hub
+
+See your personal remote url: [here](https://app.saucelabs.com/user-settings) look at the 'Driver Creation' section
 
 Remote url should be different if you are from US.
 
