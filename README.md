@@ -62,7 +62,7 @@ In order to run test with Sauce Lab you need set up remote settings in test.prop
 
 > remote.type=sauce
 > 
-> driver.remote.url=https://<SAUCE_USERNAME>:<SAUCE_ACCESS_KEY>@ondemand.us-west-1.saucelabs.com:443/wd/hub
+> driver.remote.url=https://ondemand.us-west-1.saucelabs.com:443/wd/hub
 
 See your personal remote url: [here](https://app.saucelabs.com/user-settings) look at the 'Driver Creation' section.
 
