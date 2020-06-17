@@ -17,10 +17,6 @@ import static org.mytests.uiobjects.example.site.SiteJdi.homePage;
 public class TestsInit {
     @BeforeSuite(alwaysRun = true)
     public static void setUp() {
-        String sauceUserName = SauceSettings.username;
-        String sauceAccessKey = SauceSettings.accessKey;
-        JDISettings.DRIVER.capabilities.chrome.put("SAUCE_USERNAME", sauceUserName);
-        JDISettings.DRIVER.capabilities.chrome.put("SAUCE_ACCESS_KEY", sauceAccessKey);
         INTERFACES.update(IsCombobox.class, DataListOptions.class);
         initSite(SiteJdi.class);
         homePage.open();
