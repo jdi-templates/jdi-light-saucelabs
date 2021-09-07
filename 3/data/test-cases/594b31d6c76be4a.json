@@ -1,31 +1,31 @@
 {
-  "uid" : "4c8aa7fb91ae3f93",
-  "name" : "hugeTableValidateTest",
-  "fullName" : "org.mytests.tests.example.JDIPerformanceTests.hugeTableValidateTest",
-  "historyId" : "b7d50dd4b0dadec0963e4288e98114f7",
+  "uid" : "594b31d6c76be4a",
+  "name" : "tableParamsTest",
+  "fullName" : "org.mytests.tests.example.DataTableTests.tableParamsTest",
+  "historyId" : "900700fe5631074d88345619a4d84e25",
   "time" : {
-    "start" : 1631054273148,
-    "stop" : 1631054280687,
-    "duration" : 7539
+    "start" : 1631054827790,
+    "stop" : 1631054827799,
+    "duration" : 9
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "openPerformancePage",
+    "name" : "before",
     "time" : {
-      "start" : 1631054272955,
-      "stop" : 1631054273146,
-      "duration" : 191
+      "start" : 1631054827670,
+      "stop" : 1631054827788,
+      "duration" : 118
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "shouldBeLoggedIn",
       "time" : {
-        "start" : 1631054272959,
-        "stop" : 1631054273126,
-        "duration" : 167
+        "start" : 1631054827671,
+        "stop" : 1631054827780,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,19 +36,19 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "'Performance Page'(url=https://jdi-testing.github.io/jdi-light/performance.html) should be opened",
+      "name" : "'Users Page'(url=https://jdi-testing.github.io/jdi-light/user-table.html) should be opened",
       "time" : {
-        "start" : 1631054273127,
-        "stop" : 1631054273146,
-        "duration" : 19
+        "start" : 1631054827780,
+        "stop" : 1631054827788,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "'Performance Page'(url=https://jdi-testing.github.io/jdi-light/performance.html) should be opened",
+        "name" : "'Users Page'(url=https://jdi-testing.github.io/jdi-light/user-table.html) should be opened",
         "time" : {
-          "start" : 1631054273134,
-          "stop" : 1631054273146,
-          "duration" : 12
+          "start" : 1631054827784,
+          "stop" : 1631054827788,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -60,11 +60,11 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "fe4196fc18d50817",
+        "uid" : "164fdf68a7436641",
         "name" : "Details",
-        "source" : "fe4196fc18d50817.html",
+        "source" : "164fdf68a7436641.html",
         "type" : "text/plain",
-        "size" : 138
+        "size" : 148
       } ],
       "parameters" : [ ],
       "stepsCount" : 1,
@@ -81,26 +81,26 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1631054196460,
-      "stop" : 1631054203631,
-      "duration" : 7171
+      "start" : 1631054564717,
+      "stop" : 1631054572895,
+      "duration" : 8178
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
       "time" : {
-        "start" : 1631054198299,
-        "stop" : 1631054203627,
-        "duration" : 5328
+        "start" : 1631054567018,
+        "stop" : 1631054572888,
+        "duration" : 5870
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
         "time" : {
-          "start" : 1631054202504,
-          "stop" : 1631054203627,
-          "duration" : 1123
+          "start" : 1631054571698,
+          "stop" : 1631054572887,
+          "duration" : 1189
         },
         "status" : "passed",
         "steps" : [ ],
@@ -112,9 +112,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "691114395b358eda",
+        "uid" : "affcce85b9a3ecf0",
         "name" : "Details",
-        "source" : "691114395b358eda.html",
+        "source" : "affcce85b9a3ecf0.html",
         "type" : "text/plain",
         "size" : 137
       } ],
@@ -134,67 +134,73 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Preview 'Users Table' table",
+      "name" : "Get 'Users' rows count",
       "time" : {
-        "start" : 1631054273154,
-        "stop" : 1631054280676,
-        "duration" : 7522
+        "start" : 1631054827791,
+        "stop" : 1631054827794,
+        "duration" : 3
       },
       "status" : "passed",
-      "steps" : [ {
-        "name" : "Get 'Users Table' text",
-        "time" : {
-          "start" : 1631054273179,
-          "stop" : 1631054280656,
-          "duration" : 7477
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ {
-          "uid" : "830e0c72a4ba01d0",
-          "name" : "Actual result",
-          "source" : "830e0c72a4ba01d0.html",
-          "type" : "text/plain",
-          "size" : 26970
-        } ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 1,
-        "shouldDisplayMessage" : false,
-        "hasContent" : true
-      } ],
+      "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a5bf936c4eb24049",
+        "uid" : "43096f906909196e",
         "name" : "Details",
-        "source" : "a5bf936c4eb24049.html",
+        "source" : "43096f906909196e.html",
         "type" : "text/plain",
-        "size" : 51
+        "size" : 35
       }, {
-        "uid" : "7ef2a605e450c724",
+        "uid" : "537fab56667e5fb5",
         "name" : "Actual result",
-        "source" : "7ef2a605e450c724.html",
+        "source" : "537fab56667e5fb5.html",
         "type" : "text/plain",
-        "size" : 26970
+        "size" : 1
       } ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get 'Users' header",
+      "time" : {
+        "start" : 1631054827795,
+        "stop" : 1631054827798,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb49e29980a3c879",
+        "name" : "Details",
+        "source" : "cb49e29980a3c879.html",
+        "type" : "text/plain",
+        "size" : 35
+      }, {
+        "uid" : "a16e1b0045c08ca1",
+        "name" : "Actual result",
+        "source" : "a16e1b0045c08ca1.html",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 2,
-    "attachmentsCount" : 3,
+    "attachmentsCount" : 4,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1631054440303,
-      "stop" : 1631054440304,
-      "duration" : 1
+      "start" : 1631054828082,
+      "stop" : 1631054828082,
+      "duration" : 0
     },
     "description" : "",
     "status" : "passed",
@@ -208,13 +214,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "org.mytests.tests.example.JDIPerformanceTests"
+    "value" : "org.mytests.tests.example.DataTableTests"
   }, {
     "name" : "testClass",
-    "value" : "org.mytests.tests.example.JDIPerformanceTests"
+    "value" : "org.mytests.tests.example.DataTableTests"
   }, {
     "name" : "testMethod",
-    "value" : "hugeTableValidateTest"
+    "value" : "tableParamsTest"
   }, {
     "name" : "parentSuite",
     "value" : "Test suite"
@@ -223,13 +229,13 @@
     "value" : "Tests"
   }, {
     "name" : "subSuite",
-    "value" : "org.mytests.tests.example.JDIPerformanceTests"
+    "value" : "org.mytests.tests.example.DataTableTests"
   }, {
     "name" : "host",
-    "value" : "fv-az174-309"
+    "value" : "fv-az232-553"
   }, {
     "name" : "thread",
-    "value" : "4245@fv-az174-309.TestNG-test=Tests-2(20)"
+    "value" : "4625@fv-az232-553.TestNG-test=Tests-3(21)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -250,6 +256,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4c8aa7fb91ae3f93.json",
+  "source" : "594b31d6c76be4a.json",
   "parameterValues" : [ ]
 }
