@@ -1,12 +1,12 @@
 {
-  "uid" : "7467c6fc68bdaa70",
+  "uid" : "79f428550bbd42b8",
   "name" : "menuTest",
   "fullName" : "org.mytests.tests.example.MenuTests.menuTest",
   "historyId" : "86ac47dc43d50dc3cc9322d4ef366dd0",
   "time" : {
-    "start" : 1631053923170,
-    "stop" : 1631053939078,
-    "duration" : 15908
+    "start" : 1631054283574,
+    "stop" : 1631054301520,
+    "duration" : 17946
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,26 +14,26 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1631053836779,
-      "stop" : 1631053844181,
-      "duration" : 7402
+      "start" : 1631054196460,
+      "stop" : 1631054203631,
+      "duration" : 7171
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ {
       "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
       "time" : {
-        "start" : 1631053838992,
-        "stop" : 1631053844175,
-        "duration" : 5183
+        "start" : 1631054198299,
+        "stop" : 1631054203627,
+        "duration" : 5328
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
         "time" : {
-          "start" : 1631053843049,
-          "stop" : 1631053844174,
-          "duration" : 1125
+          "start" : 1631054202504,
+          "stop" : 1631054203627,
+          "duration" : 1123
         },
         "status" : "passed",
         "steps" : [ ],
@@ -45,9 +45,9 @@
         "hasContent" : false
       } ],
       "attachments" : [ {
-        "uid" : "312ead8700f3a427",
+        "uid" : "691114395b358eda",
         "name" : "Details",
-        "source" : "312ead8700f3a427.html",
+        "source" : "691114395b358eda.html",
         "type" : "text/plain",
         "size" : 137
       } ],
@@ -69,9 +69,9 @@
     "steps" : [ {
       "name" : "shouldBeLoggedIn",
       "time" : {
-        "start" : 1631053923171,
-        "stop" : 1631053923551,
-        "duration" : 380
+        "start" : 1631054283582,
+        "stop" : 1631054283966,
+        "duration" : 384
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,25 +84,25 @@
     }, {
       "name" : "'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) should be opened",
       "time" : {
-        "start" : 1631053923552,
-        "stop" : 1631053924593,
-        "duration" : 1041
+        "start" : 1631054283966,
+        "stop" : 1631054285109,
+        "duration" : 1143
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) should be opened",
         "time" : {
-          "start" : 1631053923557,
-          "stop" : 1631053924593,
-          "duration" : 1036
+          "start" : 1631054283982,
+          "stop" : 1631054285109,
+          "duration" : 1127
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
           "time" : {
-            "start" : 1631053923562,
-            "stop" : 1631053924560,
-            "duration" : 998
+            "start" : 1631054283987,
+            "stop" : 1631054285082,
+            "duration" : 1095
           },
           "status" : "passed",
           "steps" : [ ],
@@ -115,9 +115,9 @@
         }, {
           "name" : "Check that 'Home Page' is opened (url CONTAINS '/index.html'; title EQUALS 'Home Page')",
           "time" : {
-            "start" : 1631053924560,
-            "stop" : 1631053924593,
-            "duration" : 33
+            "start" : 1631054285083,
+            "stop" : 1631054285109,
+            "duration" : 26
           },
           "status" : "passed",
           "steps" : [ ],
@@ -136,9 +136,9 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "4004f0f5cbe58324",
+        "uid" : "782d167f4169f156",
         "name" : "Details",
-        "source" : "4004f0f5cbe58324.html",
+        "source" : "782d167f4169f156.html",
         "type" : "text/plain",
         "size" : 137
       } ],
@@ -150,40 +150,40 @@
     }, {
       "name" : "Select '[Service, Dates]' in 'Left Menu'",
       "time" : {
-        "start" : 1631053924594,
-        "stop" : 1631053930587,
-        "duration" : 5993
+        "start" : 1631054285110,
+        "stop" : 1631054291570,
+        "duration" : 6460
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Select ([Service, Dates]) for 'Left Menu'",
         "time" : {
-          "start" : 1631053924610,
-          "stop" : 1631053930587,
-          "duration" : 5977
+          "start" : 1631054285116,
+          "stop" : 1631054291570,
+          "duration" : 6454
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Select 'Service' for 'Left Menu'",
           "time" : {
-            "start" : 1631053924612,
-            "stop" : 1631053927330,
-            "duration" : 2718
+            "start" : 1631054285118,
+            "stop" : 1631054287984,
+            "duration" : 2866
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Get '' text",
             "time" : {
-              "start" : 1631053926708,
-              "stop" : 1631053926799,
-              "duration" : 91
+              "start" : 1631054287204,
+              "stop" : 1631054287337,
+              "duration" : 133
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ {
-              "uid" : "707ba5c82bd8250c",
+              "uid" : "6470d169d1186b09",
               "name" : "Actual result",
-              "source" : "707ba5c82bd8250c.html",
+              "source" : "6470d169d1186b09.html",
               "type" : "text/plain",
               "size" : 4
             } ],
@@ -195,24 +195,24 @@
           }, {
             "name" : "Click on ''",
             "time" : {
-              "start" : 1631053926933,
-              "stop" : 1631053927330,
-              "duration" : 397
+              "start" : 1631054287493,
+              "stop" : 1631054287984,
+              "duration" : 491
             },
             "status" : "passed",
             "steps" : [ {
               "name" : "Check that '' is disabled",
               "time" : {
-                "start" : 1631053926936,
-                "stop" : 1631053927023,
-                "duration" : 87
+                "start" : 1631054287497,
+                "stop" : 1631054287591,
+                "duration" : 94
               },
               "status" : "passed",
               "steps" : [ ],
               "attachments" : [ {
-                "uid" : "ae0faaf2b34e1594",
+                "uid" : "5262b98612e55fab",
                 "name" : "Actual result",
-                "source" : "ae0faaf2b34e1594.html",
+                "source" : "5262b98612e55fab.html",
                 "type" : "text/plain",
                 "size" : 5
               } ],
@@ -238,9 +238,9 @@
         }, {
           "name" : "Select 'Dates' for 'Left Menu'",
           "time" : {
-            "start" : 1631053927331,
-            "stop" : 1631053930587,
-            "duration" : 3256
+            "start" : 1631054287986,
+            "stop" : 1631054291570,
+            "duration" : 3584
           },
           "status" : "passed",
           "steps" : [ ],
@@ -259,9 +259,9 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "d8fd779da473da75",
+        "uid" : "876602497cf14589",
         "name" : "Details",
-        "source" : "d8fd779da473da75.html",
+        "source" : "876602497cf14589.html",
         "type" : "text/plain",
         "size" : 43
       } ],
@@ -273,16 +273,16 @@
     }, {
       "name" : "Check that 'Dates Page' is opened (url CONTAINS '/dates.html'; title EQUALS 'Dates')",
       "time" : {
-        "start" : 1631053930587,
-        "stop" : 1631053930630,
-        "duration" : 43
+        "start" : 1631054291571,
+        "stop" : 1631054291613,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "436f3f3492d3405e",
+        "uid" : "80db0af7cf10b66",
         "name" : "Details",
-        "source" : "436f3f3492d3405e.html",
+        "source" : "80db0af7cf10b66.html",
         "type" : "text/plain",
         "size" : 133
       } ],
@@ -294,40 +294,40 @@
     }, {
       "name" : "Select '[ElementsPacks, HTML5]' in 'Left Menu'",
       "time" : {
-        "start" : 1631053930631,
-        "stop" : 1631053939012,
-        "duration" : 8381
+        "start" : 1631054291613,
+        "stop" : 1631054301502,
+        "duration" : 9889
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Select ([ElementsPacks, HTML5]) for 'Left Menu'",
         "time" : {
-          "start" : 1631053930638,
-          "stop" : 1631053939012,
-          "duration" : 8374
+          "start" : 1631054291623,
+          "stop" : 1631054301502,
+          "duration" : 9879
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Select 'Elements packs' for 'Left Menu'",
           "time" : {
-            "start" : 1631053930643,
-            "stop" : 1631053934539,
-            "duration" : 3896
+            "start" : 1631054291625,
+            "stop" : 1631054296579,
+            "duration" : 4954
           },
           "status" : "passed",
           "steps" : [ {
             "name" : "Get '' text",
             "time" : {
-              "start" : 1631053932929,
-              "stop" : 1631053933021,
-              "duration" : 92
+              "start" : 1631054294561,
+              "stop" : 1631054294972,
+              "duration" : 411
             },
             "status" : "passed",
             "steps" : [ ],
             "attachments" : [ {
-              "uid" : "e8b4b99039799c6a",
+              "uid" : "fce21e275ca27b0d",
               "name" : "Actual result",
-              "source" : "e8b4b99039799c6a.html",
+              "source" : "fce21e275ca27b0d.html",
               "type" : "text/plain",
               "size" : 4
             } ],
@@ -339,24 +339,24 @@
           }, {
             "name" : "Click on ''",
             "time" : {
-              "start" : 1631053934138,
-              "stop" : 1631053934539,
-              "duration" : 401
+              "start" : 1631054296148,
+              "stop" : 1631054296579,
+              "duration" : 431
             },
             "status" : "passed",
             "steps" : [ {
               "name" : "Check that '' is disabled",
               "time" : {
-                "start" : 1631053934142,
-                "stop" : 1631053934213,
-                "duration" : 71
+                "start" : 1631054296160,
+                "stop" : 1631054296241,
+                "duration" : 81
               },
               "status" : "passed",
               "steps" : [ ],
               "attachments" : [ {
-                "uid" : "4490a57a73035948",
+                "uid" : "156cb07dd736acbe",
                 "name" : "Actual result",
-                "source" : "4490a57a73035948.html",
+                "source" : "156cb07dd736acbe.html",
                 "type" : "text/plain",
                 "size" : 5
               } ],
@@ -382,9 +382,9 @@
         }, {
           "name" : "Select 'HTML 5' for 'Left Menu'",
           "time" : {
-            "start" : 1631053934540,
-            "stop" : 1631053939012,
-            "duration" : 4472
+            "start" : 1631054296581,
+            "stop" : 1631054301502,
+            "duration" : 4921
           },
           "status" : "passed",
           "steps" : [ ],
@@ -403,9 +403,9 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "1062f8795634763f",
+        "uid" : "2511a297f0df0226",
         "name" : "Details",
-        "source" : "1062f8795634763f.html",
+        "source" : "2511a297f0df0226.html",
         "type" : "text/plain",
         "size" : 43
       } ],
@@ -417,16 +417,16 @@
     }, {
       "name" : "Check that 'Html5 Page' is opened (url CONTAINS '/html5.html'; title EQUALS 'HTML 5')",
       "time" : {
-        "start" : 1631053939013,
-        "stop" : 1631053939075,
-        "duration" : 62
+        "start" : 1631054301502,
+        "stop" : 1631054301520,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "3ba00fe3f565c653",
+        "uid" : "465752b7bd21e644",
         "name" : "Details",
-        "source" : "3ba00fe3f565c653.html",
+        "source" : "465752b7bd21e644.html",
         "type" : "text/plain",
         "size" : 134
       } ],
@@ -446,9 +446,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1631054076558,
-      "stop" : 1631054076558,
-      "duration" : 0
+      "start" : 1631054440303,
+      "stop" : 1631054440304,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -480,10 +480,10 @@
     "value" : "org.mytests.tests.example.MenuTests"
   }, {
     "name" : "host",
-    "value" : "fv-az72-646"
+    "value" : "fv-az174-309"
   }, {
     "name" : "thread",
-    "value" : "4285@fv-az72-646.TestNG-test=Tests-4(22)"
+    "value" : "4245@fv-az174-309.TestNG-test=Tests-4(22)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -504,6 +504,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7467c6fc68bdaa70.json",
+  "source" : "79f428550bbd42b8.json",
   "parameterValues" : [ ]
 }
