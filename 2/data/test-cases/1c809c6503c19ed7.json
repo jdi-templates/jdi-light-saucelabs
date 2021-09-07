@@ -1,0 +1,663 @@
+{
+  "uid" : "1c809c6503c19ed7",
+  "name" : "menuTest",
+  "fullName" : "org.mytests.tests.example.MenuTests.menuTest",
+  "historyId" : "86ac47dc43d50dc3cc9322d4ef366dd0",
+  "time" : {
+    "start" : 1631008824735,
+    "stop" : 1631008841936,
+    "duration" : 17201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631008723210,
+      "stop" : 1631008731515,
+      "duration" : 8305
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
+      "time" : {
+        "start" : 1631008725761,
+        "stop" : 1631008731513,
+        "duration" : 5752
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
+        "time" : {
+          "start" : 1631008730249,
+          "stop" : 1631008731513,
+          "duration" : 1264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "94c82d138e2909fd",
+        "name" : "Details",
+        "source" : "94c82d138e2909fd.html",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "shouldBeLoggedIn",
+      "time" : {
+        "start" : 1631008824745,
+        "stop" : 1631008824991,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) should be opened",
+      "time" : {
+        "start" : 1631008824992,
+        "stop" : 1631008826095,
+        "duration" : 1103
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html) should be opened",
+        "time" : {
+          "start" : 1631008825002,
+          "stop" : 1631008826094,
+          "duration" : 1092
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open 'Home Page'(url=https://jdi-testing.github.io/jdi-light/index.html)",
+          "time" : {
+            "start" : 1631008825005,
+            "stop" : 1631008826038,
+            "duration" : 1033
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Check that 'Home Page' is opened (url CONTAINS '/index.html'; title EQUALS 'Home Page')",
+          "time" : {
+            "start" : 1631008826038,
+            "stop" : 1631008826094,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4e842cb6a855f784",
+        "name" : "Details",
+        "source" : "4e842cb6a855f784.html",
+        "type" : "text/plain",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select '[Service, Dates]' in 'Left Menu'",
+      "time" : {
+        "start" : 1631008826095,
+        "stop" : 1631008833357,
+        "duration" : 7262
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select ([Service, Dates]) for 'Left Menu'",
+        "time" : {
+          "start" : 1631008826129,
+          "stop" : 1631008833357,
+          "duration" : 7228
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Select 'Service' for 'Left Menu'",
+          "time" : {
+            "start" : 1631008826132,
+            "stop" : 1631008829132,
+            "duration" : 3000
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get '' text",
+            "time" : {
+              "start" : 1631008828382,
+              "stop" : 1631008828474,
+              "duration" : 92
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "2e3ce9a5403486b5",
+              "name" : "Actual result",
+              "source" : "2e3ce9a5403486b5.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Click on ''",
+            "time" : {
+              "start" : 1631008828665,
+              "stop" : 1631008829132,
+              "duration" : 467
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that '' is disabled",
+              "time" : {
+                "start" : 1631008828669,
+                "stop" : 1631008828779,
+                "duration" : 110
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "205f47bd6ff90f61",
+                "name" : "Actual result",
+                "source" : "205f47bd6ff90f61.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Select 'Dates' for 'Left Menu'",
+          "time" : {
+            "start" : 1631008829134,
+            "stop" : 1631008833357,
+            "duration" : 4223
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a8fd6800b310a356",
+        "name" : "Details",
+        "source" : "a8fd6800b310a356.html",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check that 'Dates Page' is opened (url CONTAINS '/dates.html'; title EQUALS 'Dates')",
+      "time" : {
+        "start" : 1631008833358,
+        "stop" : 1631008833438,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ad77941c37588dc",
+        "name" : "Details",
+        "source" : "7ad77941c37588dc.html",
+        "type" : "text/plain",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select '[ElementsPacks, HTML5]' in 'Left Menu'",
+      "time" : {
+        "start" : 1631008833438,
+        "stop" : 1631008841918,
+        "duration" : 8480
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select ([ElementsPacks, HTML5]) for 'Left Menu'",
+        "time" : {
+          "start" : 1631008833455,
+          "stop" : 1631008841918,
+          "duration" : 8463
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Select 'Elements packs' for 'Left Menu'",
+          "time" : {
+            "start" : 1631008833461,
+            "stop" : 1631008837491,
+            "duration" : 4030
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Get '' text",
+            "time" : {
+              "start" : 1631008836011,
+              "stop" : 1631008836101,
+              "duration" : 90
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "84be6b04ef5606cc",
+              "name" : "Actual result",
+              "source" : "84be6b04ef5606cc.html",
+              "type" : "text/plain",
+              "size" : 4
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Click on ''",
+            "time" : {
+              "start" : 1631008837072,
+              "stop" : 1631008837491,
+              "duration" : 419
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Check that '' is disabled",
+              "time" : {
+                "start" : 1631008837076,
+                "stop" : 1631008837167,
+                "duration" : 91
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "d366379f1ecaea05",
+                "name" : "Actual result",
+                "source" : "d366379f1ecaea05.html",
+                "type" : "text/plain",
+                "size" : 5
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Select 'HTML 5' for 'Left Menu'",
+          "time" : {
+            "start" : 1631008837492,
+            "stop" : 1631008841918,
+            "duration" : 4426
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "2201c089e99ff895",
+        "name" : "Details",
+        "source" : "2201c089e99ff895.html",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check that 'Html5 Page' is opened (url CONTAINS '/html5.html'; title EQUALS 'HTML 5')",
+      "time" : {
+        "start" : 1631008841919,
+        "stop" : 1631008841935,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a24991ca69ecb855",
+        "name" : "Details",
+        "source" : "a24991ca69ecb855.html",
+        "type" : "text/plain",
+        "size" : 134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631008977183,
+      "stop" : 1631008977183,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "menuTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.mytests.tests.example.MenuTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az281-680"
+  }, {
+    "name" : "thread",
+    "value" : "4277@fv-az281-680.TestNG-test=Tests-4(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "fcd4572308a78f4a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/fcd4572308a78f4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631008413640,
+          "stop" : 1631008431617,
+          "duration" : 17977
+        }
+      }, {
+        "uid" : "a9f160875a6418fe",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/a9f160875a6418fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631008031211,
+          "stop" : 1631008046658,
+          "duration" : 15447
+        }
+      }, {
+        "uid" : "d2cef861ba82943e",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/d2cef861ba82943e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631007641008,
+          "stop" : 1631007659735,
+          "duration" : 18727
+        }
+      }, {
+        "uid" : "e45f50914e248adf",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/e45f50914e248adf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631007197251,
+          "stop" : 1631007216278,
+          "duration" : 19027
+        }
+      }, {
+        "uid" : "c43f8a0b8b66af92",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/c43f8a0b8b66af92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631006779592,
+          "stop" : 1631006797944,
+          "duration" : 18352
+        }
+      }, {
+        "uid" : "e4d3c0b85b89c6b7",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/e4d3c0b85b89c6b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631006396075,
+          "stop" : 1631006413623,
+          "duration" : 17548
+        }
+      }, {
+        "uid" : "38c3f0640d707bdf",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/2//#testresult/38c3f0640d707bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631006018272,
+          "stop" : 1631006032952,
+          "duration" : 14680
+        }
+      }, {
+        "uid" : "e43a64b64591c6fd",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/e43a64b64591c6fd",
+        "status" : "skipped",
+        "statusDetails" : "[15:01.585] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631006101803,
+          "stop" : 1631006101803,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "26c4624d825ad785",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/26c4624d825ad785",
+        "status" : "skipped",
+        "statusDetails" : "[12:46.441] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005966717,
+          "stop" : 1631005966717,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a4145b845e99d17a",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/a4145b845e99d17a",
+        "status" : "skipped",
+        "statusDetails" : "[10:39.778] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005839994,
+          "stop" : 1631005839994,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c014c27f863153d4",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/c014c27f863153d4",
+        "status" : "skipped",
+        "statusDetails" : "[08:35.531] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005715767,
+          "stop" : 1631005715769,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "92c2d477444a4a77",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/92c2d477444a4a77",
+        "status" : "skipped",
+        "statusDetails" : "[06:15.251] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005575477,
+          "stop" : 1631005575477,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "266863412dbd8575",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/266863412dbd8575",
+        "status" : "skipped",
+        "statusDetails" : "[03:56.727] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005436944,
+          "stop" : 1631005436944,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aa16925b00d6dc60",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/aa16925b00d6dc60",
+        "status" : "skipped",
+        "statusDetails" : "[01:03.735] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005263994,
+          "stop" : 1631005263994,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "25a9d7817a4cf18c",
+        "reportUrl" : "https://jdi-templates.github.io/jdi-light-saucelabs/1//#testresult/25a9d7817a4cf18c",
+        "status" : "skipped",
+        "statusDetails" : "[58:11.134] Can't get WebDriver: firefox",
+        "time" : {
+          "start" : 1631005091331,
+          "stop" : 1631005091333,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c809c6503c19ed7.json",
+  "parameterValues" : [ ]
+}
