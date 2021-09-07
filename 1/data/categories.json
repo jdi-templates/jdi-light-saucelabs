@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "[58:11.134] Can't get WebDriver: firefox",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "d26ac82dcdbb3774",
+        "parentUid" : "4bf2f56ae70ec3e92eae097435910a24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631005091160,
+          "stop" : 1631005091161,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bf2f56ae70ec3e92eae097435910a24"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
