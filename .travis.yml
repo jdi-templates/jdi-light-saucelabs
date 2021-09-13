@@ -26,7 +26,7 @@ jobs:
   - stage: compile
     name: Compile jdi light saucelabs template
     script:
-    - mvn install
+    - mvn install -DskipTests
     after_failure:
     - echo "Build was failed"
     after_success:

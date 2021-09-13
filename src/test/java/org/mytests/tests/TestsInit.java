@@ -22,7 +22,7 @@ public class TestsInit {
     }
 
     @AfterSuite(alwaysRun = true)
-    public void teardown() {
+    public void tearDown() {
         WebDriverFactory.quit();
     }
 }

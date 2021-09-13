@@ -3,7 +3,7 @@
 Before running JDI project in Sauce Lab, you need to set up Sauce Lab Credentials
 
 #### Set Your Sauce Labs Credentials
-1. Copy your Sauce Labs **username** and **accessKey** in the [User Settings](https://app.saucelabs.com/user-settings) section of the [Sauce Labs Dashboard](https://app.saucelabs.com/dashboard/builds).
+1. Copy your Sauce Labs **username** and **accessKey** from the [User Settings](https://app.eu-central-1.saucelabs.com/user-settings).
 2. Open a Terminal window (command prompt for Windows) and set your Sauce Labs Environment variables:   
    ###### Mac OSX:
    ```
@@ -69,3 +69,8 @@ See your personal remote url: [here](https://app.saucelabs.com/user-settings) lo
 Remote url should be different if you are from US.
 
 And that it. Set Sauce Lab capabilities, set remote execution in test.properties and you can run test with Sauce Lab
+
+#### Alternative way to run tests using CLI (you don't need to set env properties preliminary in your OS)
+
+    mvn -DUSERNAME=your_sauce_user_name -DACCESS_KEY=your_sauce_access_key -Dremote.type=sauce -Dremote.url=your_sauce_remote_url clean install
+    mvn allure:serve
