@@ -7,6 +7,8 @@ import org.mytests.uiobjects.example.site.SiteJdi;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import java.util.Properties;
+
 import static com.epam.jdi.light.elements.init.InitActions.INTERFACES;
 import static com.epam.jdi.light.elements.init.PageFactory.initSite;
 import static com.epam.jdi.light.settings.WebSettings.logger;

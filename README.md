@@ -72,5 +72,5 @@ And that it. Set Sauce Lab capabilities, set remote execution in test.properties
 
 #### Alternative way to run tests using CLI (you don't need to set env properties preliminary in your OS)
 
-    mvn -DUSERNAME=your_sauce_user_name -DACCESS_KEY=your_sauce_access_key -Dremote.url=your_sauce_remote_url clean install
+    mvn -DUSERNAME=your_sauce_user_name -DACCESS_KEY=your_sauce_access_key -Dremote.type=sauce -Dremote.url=your_sauce_remote_url clean install
     mvn allure:serve
