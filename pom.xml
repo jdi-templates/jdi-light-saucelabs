@@ -20,7 +20,7 @@
         <allure.maven>2.10.0</allure.maven>
         <log4j2.version>2.17.1</log4j2.version>
         <jetty.version>11.0.12</jetty.version>
-        <jdi.version>1.4.5</jdi.version>
+<!--        <jdi.version>1.4.5</jdi.version>-->
         <USERNAME>oauth-k.poltorykhin-158a6</USERNAME>
         <ACCESS_KEY>85f0134b-e183-451e-98a2-1f55bbd7c10b</ACCESS_KEY>
     </properties>
@@ -43,7 +43,13 @@
         <dependency>
             <groupId>com.epam.jdi</groupId>
             <artifactId>jdi-light-html</artifactId>
-            <version>${jdi.version}</version>
+            <version>LATEST</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>LATEST</version>
         </dependency>
 		
         <!--Allure-->
