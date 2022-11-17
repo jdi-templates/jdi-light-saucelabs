@@ -84,7 +84,7 @@ jobs:
           PUBLISH_DIR: allure-history
 
       - name: Check tests are passed
-          if: ${{ steps.functests.outcome != 'success' }}
-          run: |
-            echo Tests result: ${{ steps.functests.outcome }}
-            exit 1
+        if: ${{ steps.functests.outcome != 'success' }}
+        run: |
+          echo Tests result: ${{ steps.functests.outcome }}
+          exit 1
