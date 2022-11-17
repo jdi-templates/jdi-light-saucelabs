@@ -11,10 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <driver>firefox</driver>
+        <driver>chrome</driver>
         <remote.type/>
         <remote.url/>
-        <aspectj.version>1.9.6</aspectj.version>
+        <aspectj.version>1.9.7</aspectj.version>
         <domain>https://jdi-testing.github.io/jdi-light/</domain>
         <allure.testng>2.19.0</allure.testng>
         <allure.maven>2.10.0</allure.maven>
@@ -46,12 +46,7 @@
             <version>LATEST</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>LATEST</version>
-        </dependency>
-		
+
         <!--Allure-->
         <dependency>
             <groupId>io.qameta.allure</groupId>

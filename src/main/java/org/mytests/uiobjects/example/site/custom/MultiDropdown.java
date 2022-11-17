@@ -23,7 +23,7 @@ import static  com.jdiai.tools.LinqUtils.ifSelect;
 import static  com.jdiai.tools.LinqUtils.map;
 import static  com.jdiai.tools.LinqUtils.toList;
 import static java.util.Arrays.asList;
-import static org.jsoup.internal.StringUtil.isBlank;
+import static org.apache.commons.lang3.StringUtils.isBlank;
 
 public class MultiDropdown extends UIListBase<UISelectAssert<UISelectAssert<?, ?>, MultiDropdown>>
         implements ICoreElement, HasLabel {
