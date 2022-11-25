@@ -23,6 +23,7 @@
 <!--        <jdi.version>1.4.5</jdi.version>-->
         <USERNAME>oauth-k.poltorykhin-158a6</USERNAME>
         <ACCESS_KEY>85f0134b-e183-451e-98a2-1f55bbd7c10b</ACCESS_KEY>
+        <aspectj.args></aspectj.args>
     </properties>
 
     <profiles>
@@ -102,6 +103,7 @@
                         <suiteXmlFile>src/test/resources/general.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
+                        ${aspectj.args}
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <systemPropertyVariables>
